@@ -8,6 +8,6 @@ int Snake::getLength() const {
     return length;
 }
 
-void Snake::setLength(int length) {
+void Snake::setLength(const int & length) {
     Snake::length = length;
 }
