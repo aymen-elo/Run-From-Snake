@@ -55,11 +55,17 @@ build CMakeFiles/Run_From_Snake.dir/main.cpp.obj: CXX_COMPILER__Run_From_Snake_D
   OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
   OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir
 
-build CMakeFiles/Run_From_Snake.dir/Run-From-Snake/Person.cpp.obj: CXX_COMPILER__Run_From_Snake_Debug C$:/Users/aymen/Documents/personalwork/cpp/CLion$ Projects/Run$ From$ Snake/Run-From-Snake/Person.cpp || cmake_object_order_depends_target_Run_From_Snake
-  DEP_FILE = CMakeFiles\Run_From_Snake.dir\Run-From-Snake\Person.cpp.obj.d
+build CMakeFiles/Run_From_Snake.dir/src/Person.cpp.obj: CXX_COMPILER__Run_From_Snake_Debug C$:/Users/aymen/Documents/personalwork/cpp/CLion$ Projects/Run$ From$ Snake/src/Person.cpp || cmake_object_order_depends_target_Run_From_Snake
+  DEP_FILE = CMakeFiles\Run_From_Snake.dir\src\Person.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
-  OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir\Run-From-Snake
+  OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir\src
+
+build CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj: CXX_COMPILER__Run_From_Snake_Debug C$:/Users/aymen/Documents/personalwork/cpp/CLion$ Projects/Run$ From$ Snake/src/Snake.cpp || cmake_object_order_depends_target_Run_From_Snake
+  DEP_FILE = CMakeFiles\Run_From_Snake.dir\src\Snake.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir\src
 
 
 # =============================================================================
@@ -69,7 +75,7 @@ build CMakeFiles/Run_From_Snake.dir/Run-From-Snake/Person.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Run_From_Snake.exe
 
-build Run_From_Snake.exe: CXX_EXECUTABLE_LINKER__Run_From_Snake_Debug CMakeFiles/Run_From_Snake.dir/main.cpp.obj CMakeFiles/Run_From_Snake.dir/Run-From-Snake/Person.cpp.obj
+build Run_From_Snake.exe: CXX_EXECUTABLE_LINKER__Run_From_Snake_Debug CMakeFiles/Run_From_Snake.dir/main.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Person.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
