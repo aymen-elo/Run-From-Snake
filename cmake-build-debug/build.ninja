@@ -67,6 +67,12 @@ build CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj: CXX_COMPILER__Run_From_Sn
   OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
   OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir\src
 
+build CMakeFiles/Run_From_Snake.dir/src/Grid.cpp.obj: CXX_COMPILER__Run_From_Snake_Debug C$:/Users/aymen/Documents/personalwork/cpp/CLion$ Projects/Run$ From$ Snake/src/Grid.cpp || cmake_object_order_depends_target_Run_From_Snake
+  DEP_FILE = CMakeFiles\Run_From_Snake.dir\src\Grid.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles\Run_From_Snake.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Run_From_Snake
@@ -75,7 +81,7 @@ build CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj: CXX_COMPILER__Run_From_Sn
 #############################################
 # Link the executable Run_From_Snake.exe
 
-build Run_From_Snake.exe: CXX_EXECUTABLE_LINKER__Run_From_Snake_Debug CMakeFiles/Run_From_Snake.dir/main.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Person.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj
+build Run_From_Snake.exe: CXX_EXECUTABLE_LINKER__Run_From_Snake_Debug CMakeFiles/Run_From_Snake.dir/main.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Person.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Snake.cpp.obj CMakeFiles/Run_From_Snake.dir/src/Grid.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Run_From_Snake.dir
