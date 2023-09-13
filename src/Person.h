@@ -10,6 +10,14 @@
 
 using std::cout, std::cin, std::string;
 
+/* A person has a name and health points.
+ * The person is controlled by the user.
+ * The user can move the person on a grid.
+ * The person dies if their hps are below 0.
+ *
+ * *Hps = Health points
+ * */
+
 class Person {
 private:
     string name;
@@ -21,11 +29,20 @@ public:
     ~Person();
 
     string getName() const;
-    void setName(const string & name);
     int getHp() const;
     void setHp(const int & hp);
-    std::pair<int, int> getPostion();
-    void setPosition(const std::pair<int, int> & position);
+    std::pair<int, int> getPostion() const;
+    void setPosition(const int &x, const int &y);
+
+    //Health bar
+    void addOneHp();
+    void minusOneHp();
+
+    //Movement
+    void moveUp();
+    void moveDown();
+    void moveLeft();
+    void moveRight();
 };
 
 
