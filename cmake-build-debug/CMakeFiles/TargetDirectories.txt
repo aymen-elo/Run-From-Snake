@@ -1,0 +1,3 @@
+C:/Users/aymen/Documents/personalwork/cpp/CLion Projects/Run From Snake/cmake-build-debug/CMakeFiles/Run_From_Snake.dir
+C:/Users/aymen/Documents/personalwork/cpp/CLion Projects/Run From Snake/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/aymen/Documents/personalwork/cpp/CLion Projects/Run From Snake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
